@@ -1,0 +1,27 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "Example of GraphQL server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bchelkow/graphql-server.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "blazej chelkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bchelkow/graphql-server/issues"
+  },
+  "homepage": "https://github.com/bchelkow/graphql-server#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.3",
+    "graphql": "^0.6.2"
+  }
+}
