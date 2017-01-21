@@ -1,0 +1,24 @@
+type Country {
+    name: String
+    topLevelDomain: [String]
+    alpha2Code: String
+    alpha3Code: String
+    callingCodes: [String]
+    capital: String
+    altSpellings: [String]
+    relevance: String
+    region: String
+    subregion: String
+    population: Int
+    latlng: [Int]
+    demonym: String
+    area: Int
+    gini: Float
+    timezones: [String]
+    borders: [String]
+    nativeName: String
+    numericCode: String
+    currencies: [String]
+    languages: [String]
+    area: Int
+}

@@ -1,0 +1,4 @@
+type Mutation {
+    createTodo(title: String!, task: String!): Todo
+    checkTodo(title: String!): Todo
+}
